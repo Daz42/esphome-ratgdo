@@ -34,6 +34,10 @@ packages:
     files: [base.yaml]
     refresh: 1s
 
+packages:
+  remote_package: !include
+    file: base.yaml
+
 # Sync time with Home Assistant.
 time:
   - platform: homeassistant
