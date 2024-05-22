@@ -35,8 +35,10 @@ packages:
     refresh: 1s
 
 packages:
-  remote_package: !include
-    file: base.yaml
+  remote_package:
+    url: https://github.com/Daz42/esphome-ratgdo/
+    files: [base-yaml]
+    refresh: 1s
 
 # Sync time with Home Assistant.
 time:
