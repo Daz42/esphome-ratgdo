@@ -30,13 +30,13 @@ dashboard_import:
 
 packages:
   remote_package:
-    url: https://github.com/ratgdo/esphome-ratgdo
+    url: https://github.com/Daz42/esphome-ratgdo
     files: [base.yaml]
     refresh: 1s
 
 packages:
   remote_package:
-    url: https://github.com/Daz42/esphome-ratgdo/
+    url: https://github.com/Daz42/esphome-ratgdo
     files: [base-yaml]
     refresh: 1s
 
