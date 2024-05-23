@@ -367,7 +367,7 @@ namespace ratgdo {
         // If at least 3 low pulses are counted within 50ms, the door is awake, not obstructed and we don't have to check anything else
 
         const long CHECK_PERIOD = 50;
-        const long PULSES_LOWER_LIMIT = 2;
+        const long PULSES_LOWER_LIMIT = 1;
 
         if (current_millis - last_millis > CHECK_PERIOD) {
             // ESP_LOGD(TAG, "%ld: Obstruction count: %d, expected: %d, since asleep: %ld",
