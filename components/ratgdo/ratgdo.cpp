@@ -38,7 +38,8 @@ namespace ratgdo {
         this->input_gdo_pin_->setup();
         this->input_gdo_pin_->pin_mode(gpio::FLAG_INPUT | gpio::FLAG_PULLUP);
 
-        if (1) {
+        if(1){
+            ESP_LOGD(TAG, "USING OBSTRUCTION FROM STATUS");
             // Our base.yaml is always going to set this so we check for 0
             // as well to avoid a breaking change.
             this->obstruction_from_status_ = true;
