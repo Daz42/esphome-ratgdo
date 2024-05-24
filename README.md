@@ -3,6 +3,8 @@
 
 This is a port of the ratgdo software for the v2.0/v2.5 board to ESPHome.
 
+Note: This fork includes a change in setting the Obstruction Sensor to read the GDO state rather than direct from the sensors. This is essential to support 2 pairs of sensors.
+
 [Visit the github.io page to purchase boards](https://paulwieland.github.io/ratgdo/#order)
 
 ## Installation
