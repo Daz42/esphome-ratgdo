@@ -17,6 +17,11 @@ esphome:
   name: ${id_prefix}
   friendly_name: ${friendly_name}
   name_add_mac_suffix: true
+  on_boot:
+    priority: 300
+    then:
+      lambda: |-
+        WiFi.setPhyMode(WIFI_PHY_MODE_11G);
   project:
     name: ratgdo.esphome
     version: "2.5i"
